@@ -10,23 +10,25 @@
 }
 
 body{
-    background-color: var(--preta);         
+    background-color: var(--preta);        
     font-family: Arial, Helvetica, sans-serif;
 }
+
 a{ text-decoration: none; }
 .borda{border: 1px solid white;}
+
 .container{
-    width: 90%;
-    margin: 0 auto;
+    margin-left: 20px;
 }
 /*Area Header*/
 .container-header{          
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 20px 20px 20px 40px;                                           
+    padding: 20px 20px 20px 40px;                                                              
              
 }
+
 nav{margin-left: 10px;}
 nav a{
     color: var(--branco);
@@ -56,4 +58,13 @@ nav a:hover{
     margin-right: 8px;
     border-radius: 10%;
     border-style: none;
+}
+
+/*Area Filmes*/
+.filmes{
+    margin: 20px 20px;
+}
+.filmes img{
+   width: 40vh;
+   height: 40vh; 
 }
